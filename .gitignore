@@ -50,7 +50,7 @@ Thumbs.db
 
 # Output directories (trained models)
 output/
-output_final/
+# output_final/  # 注释掉，允许上传微调好的模型
 
 # Logs
 *.log
@@ -58,8 +58,8 @@ logs/
 
 # Data files
 *.csv
-*.json
-*.jsonl
+.json
+.jsonl
 *.xlsx
 *.xls
 
