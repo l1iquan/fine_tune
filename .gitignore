@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+qwen3-env/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files (large files)
+*.safetensors
+*.bin
+*.pth
+*.pt
+*.ckpt
+
+# Output directories (trained models)
+output/
+output_final/
+
+# Logs
+*.log
+logs/
+
+# Data files
+*.csv
+*.json
+*.jsonl
+*.xlsx
+*.xls
+
+# Temporary files
+*.tmp
+*.temp
+
+# Hugging Face cache
+.cache/
